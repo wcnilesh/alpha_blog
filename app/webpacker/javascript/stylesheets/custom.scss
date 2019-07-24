@@ -1,0 +1,62 @@
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: rgb(245, 252, 250);
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: rgb(233, 245, 237);
+  text-decoration: none;
+}
+
+.nav_bg_color {
+  background-color: rgb(8, 2, 0);
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background: url('../images/img.jpg');
+  background-size: cover;
+  height: 550px;
+}
+
+.jumbotron h1 {
+  color: rgb(166, 166, 166);
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.btn-xlarge {
+  font-size: 1.7em;
+  background-color: rgb(121, 228, 148);
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid rgb(108, 111, 136);
+  color: gb(0, 89, 84);
+}
+footer :hover {
+  color: #222;
+}
+
+footer small {
+float: left;
+}
+footer ul {
+  float: right;
+  list-style: none;
+}
+footer ul li {
+  float: left;
+  margin-left: 15px;  
+}

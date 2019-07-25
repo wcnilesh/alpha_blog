@@ -21,7 +21,7 @@
 }
 
 .jumbotron {
-  background: url('../images/img.jpg');
+  background: url("../images/img.jpg");
   background-size: cover;
   height: 550px;
 }
@@ -49,8 +49,8 @@
 }
 
 .article-title {
-    font-weight: bold;
-    font-size: 1.5em;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
 .article-body {
@@ -65,17 +65,20 @@ footer {
   border-top: 1px solid rgb(108, 111, 136);
   color: gb(0, 89, 84);
 }
+
 footer :hover {
   color: #222;
 }
 
 footer small {
-float: left;
+  float: left;
 }
+
 footer ul {
   float: right;
   list-style: none;
 }
+
 footer ul li {
   float: left;
   margin-left: 15px;
